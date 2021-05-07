@@ -1,0 +1,26 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-07T10:59:36.650035455+02:00"
+from:
+  id-type: crev
+  id: buAHNI2OOf3cARKjtWidV2ur7MlZJNK1RLNZfaQqUj4
+  url: "https://github.com/mgeisler/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: unicode-linebreak
+  version: 0.1.1
+  revision: 9cbb09b0d3cbabdb1b7a3728d4a331ecbdad040b
+  digest: RJK2ntsLIZnVLGwDyIDzi-Lluk-yAPZMSYip0U5zpK8
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  Nice crate which uses a build script to auto-generate the character
+  tables at compile time. Has one instance of `unsafe` where a `u8` is
+  cast to an enum. The enum is marked as `repr(u8)` to make this safe.
+----- SIGN CREV PROOF -----
+aX_ty2WOxabWZM1FucI5dsIvCbr4NnSvjrv02oDDTooGHW-dj67AUEAsUZgJk1KCwpr91VMqgq4a1xL5MVy3Cg
+----- END CREV PROOF -----
+
