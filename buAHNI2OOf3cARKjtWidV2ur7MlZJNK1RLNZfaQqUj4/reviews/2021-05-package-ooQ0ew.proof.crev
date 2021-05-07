@@ -152,3 +152,33 @@ comment: |-
 Mu0bsN4JEOciMVlxVp9VTAKuNcnbXS4tr1G6U3D1E0Sj4vH5QnpOJlJS9Bqs8jraBTugMdiEKSBKpWldPbJ2BA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-07T22:13:35.745025982+02:00"
+from:
+  id-type: crev
+  id: buAHNI2OOf3cARKjtWidV2ur7MlZJNK1RLNZfaQqUj4
+  url: "https://github.com/mgeisler/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rand_core
+  version: 0.6.2
+  revision: 3a03c9eb5350e03a3f540dba2ee34e0984f2c2c2
+  digest: 2KEKDqFOZAHjc2DSLPvkSSqrXuvE7A-nCKGtF34EJOY
+package-diff-base:
+  source: "https://crates.io"
+  name: rand_core
+  version: 0.6.1
+  revision: bda997404d9ab8a89d590734d8b0bb72aed10758
+  digest: kq66PP_ca8U0mSq2RjoWqxnVDKxy7X3orlCoG-ryfxo
+review:
+  thoroughness: medium
+  understanding: medium
+  rating: positive
+comment: |-
+  The delta to 0.6.1 is safe: two assertions have been tightened.
+----- SIGN CREV PROOF -----
+J1RwUwSj8FpOBtheTnE-ldodLJ3d45-KrmbsjsAMoLmICPb-EhjW0eMPAg87WmbxUfypS1hL_LpiLJI5UNvLCw
+----- END CREV PROOF -----
+
