@@ -182,3 +182,38 @@ comment: |-
 J1RwUwSj8FpOBtheTnE-ldodLJ3d45-KrmbsjsAMoLmICPb-EhjW0eMPAg87WmbxUfypS1hL_LpiLJI5UNvLCw
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-07T22:26:20.249922913+02:00"
+from:
+  id-type: crev
+  id: buAHNI2OOf3cARKjtWidV2ur7MlZJNK1RLNZfaQqUj4
+  url: "https://github.com/mgeisler/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rand
+  version: 0.8.3
+  revision: 6ecbe2626b2cc6110a25c97b1702b347574febc7
+  digest: 88tm1d-otoQDegGibfUouuBzJk64A4stV4TxJCANRZ0
+package-diff-base:
+  source: "https://crates.io"
+  name: rand
+  version: 0.8.1
+  revision: bda997404d9ab8a89d590734d8b0bb72aed10758
+  digest: yjpiNKMMyKOzJIYFfN4WDfegM_2rkRzQOkFkazZ6nyg
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+comment: |-
+  This is the standard crate for random number generation. I use it in
+  my own projects.
+  
+  The code uses unsafe in a few places for performance reasons such as
+  SIMD support. It is hard for me to say if this is safe, but I have
+  had no problems with it myself.
+----- SIGN CREV PROOF -----
+G7XwEevajMqb6ugvKGWb8TOlxIAZsU4I-fw_MXxikSXXfa72yyyh62N3LQl2EOQb9rGEk25ybErnJ-3-0Ov9Aw
+----- END CREV PROOF -----
+
