@@ -24,3 +24,30 @@ comment: |-
 aX_ty2WOxabWZM1FucI5dsIvCbr4NnSvjrv02oDDTooGHW-dj67AUEAsUZgJk1KCwpr91VMqgq4a1xL5MVy3Cg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-07T11:11:38.500353993+02:00"
+from:
+  id-type: crev
+  id: buAHNI2OOf3cARKjtWidV2ur7MlZJNK1RLNZfaQqUj4
+  url: "https://github.com/mgeisler/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: unicode-width
+  version: 0.1.8
+  revision: d0aa541144151c09268878dd781f06011498389a
+  digest: mIsmTMQ39Qb4PNIB1xLEHkf6nUm0F7Ze3MwNI9uxh8I
+review:
+  thoroughness: high
+  understanding: high
+  rating: strong
+comment: |-
+  Nice crate with no unsafe code (uses `deny(unsafe_code)` to ensure
+  this). The data tables are generated automatically from the upstream
+  Unicode data using a Python script, which ensures that they’re
+  correct and easy to update when new Unicode versions are published.
+----- SIGN CREV PROOF -----
+InU00_X4Dwe7k9VvulLDakZDxCky8EDyd8PLsPGU8Lju8XgbBxoEh8Ov-ByGeuri5UoAxCve6rWNvZK9OPMYBA
+----- END CREV PROOF -----
+
