@@ -65,3 +65,20 @@ trust: medium
 F2sxZFBDIUE-l24N2ZWm0Z5Z7FrCw9T7HNpxBJjcT1gutXoMtqVIXqDsxkH7JMy6pL-kaiyjMCQg06LRfj3cBg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: trust
+version: -1
+date: "2021-05-07T08:35:06.103149808+02:00"
+from:
+  id-type: crev
+  id: buAHNI2OOf3cARKjtWidV2ur7MlZJNK1RLNZfaQqUj4
+  url: "https://github.com/mgeisler/crev-proofs"
+ids:
+  - id-type: crev
+    id: a0hN0qYwwDTmHtAchnTXiF-I_L9rK1KL5kgCmQoYR9o
+    url: "https://github.com/niklasf/crev-proofs"
+trust: medium
+----- SIGN CREV PROOF -----
+Uu4q3YhXdCr3wD09ZTpugZenLr68Fg9Jn6kxmjdBlRj6sRUPPBd5PYwuLRXdh5DbNkv59EZK6uptHH6MO4z3Bg
+----- END CREV PROOF -----
+
