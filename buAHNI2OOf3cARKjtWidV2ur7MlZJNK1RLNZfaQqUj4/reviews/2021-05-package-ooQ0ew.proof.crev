@@ -101,3 +101,25 @@ comment: |-
 1B-TXLuH1Jml2QcL4r7KtGbWzIV7tz2-pQovvrOwujoOjnYIc4_rhmjysK-t2Pthk4ikC63J2ZLMSCxx7o89Dg
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-05-07T13:23:24.320623088+02:00"
+from:
+  id-type: crev
+  id: buAHNI2OOf3cARKjtWidV2ur7MlZJNK1RLNZfaQqUj4
+  url: "https://github.com/mgeisler/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: rand_core
+  version: 0.6.1
+  revision: bda997404d9ab8a89d590734d8b0bb72aed10758
+  digest: kq66PP_ca8U0mSq2RjoWqxnVDKxy7X3orlCoG-ryfxo
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+----- SIGN CREV PROOF -----
+d6wq5eRsr8H67gBV_fI3XGZ49oNsDdMjHlUlvq7qYgJ5ls7ESNNLA58y3f0LWs22YIjMliiSmhwVHHbRLl-vCQ
+----- END CREV PROOF -----
+
